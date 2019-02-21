@@ -27,6 +27,46 @@ color: #2b2b2b;
     margin: 0 auto;
      float:left;
 }
+/***** Header *****/
+
+header {
+    height: 800px;
+    background: url('../img/hero.png');
+    background-size: cover;
+}
+
+header h1 {
+    font-family: 'Lora', serif;
+    font-size: 30px;
+    color: #bbc085;
+    padding: 65px 0 65px 25px;
+}
+nav {
+    float: right;
+    padding: 75px 25px;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 18px;
+    color: #828282;
+    padding-left: 80px;
+}
+header h2 {
+    width: 1000px;
+    clear: both;
+    font-family: 'Lora', serif;
+    font-size: 72px;
+    line-height: 80px;
+    color: #9b9b9b;
+    padding: 20px 0 20px 25px;
+}
+header h2 span {
+    color: #2b2b2b;
+}
 
 /***** ABOUT *****/
 
@@ -51,7 +91,7 @@ color: #2b2b2b;
 /***** WORK *****/
 
 #work {
-  background-color: #F9CEB7;
+  background-color: #f9ceb7;
   text-align: center;
 
 }
@@ -65,7 +105,7 @@ color: #2b2b2b;
 #work h3 {
     font-size: 24px;
     line-height:32px;
-    width: 400px;
+    width: 190px;
     margin: 0 auto;
 }
 
@@ -90,7 +130,7 @@ color: #2b2b2b;
 }
 /**Double check how to add an ID Tag above**/
 
-#contact h2, #contact #email-header, #contact #socialmedia-header, #contact ul {
+#contact #envelope #email-header, #contact #socialmedia-header, #contact ul {
     padding-left: 115px;
     border-radius: 50%
 
@@ -110,3 +150,36 @@ img:hover {
 }
 <a href="contact-image.png">
 <img src="img/contact-image.png" alt="Contact Image" />
+#contact h2 {
+    font-family: 'Lora', serif;
+    font-size: 36px;
+    line-height: 44px;
+}
+#contact #email-header{
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 44px;
+    margin: -30px 0 5px 0;
+}
+#contact #socialmedia-header {
+    font-weight: bold;
+    font-size: 29px;
+    line-height: 44px;
+    margin: 40px 0 0 0;
+}
+#contact a {
+    text-decoration: none;
+    color: #c49075;
+    font-weight: bold;
+    font-size: 28px;
+}
+#contact ul {
+    list-style: none;
+}
+#contact ul li {
+     display: inline-block;
+}
+#contact ul img {
+    font-size: 32px;
+    padding-right: 48px;
+}
