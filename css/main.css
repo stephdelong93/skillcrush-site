@@ -1,0 +1,112 @@
+/***** BASE STYLES *****/
+
+body {
+font-family: 'Source Sans Pro', sans-serif;
+color: #2b2b2b;
+}
+
+#about, #work, #contact {
+    height: 600px;
+}
+
+/***** GRID *****/
+
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.half-width {
+    width: 600px;
+    margin: 0 auto;
+     float:left;
+}
+
+.third-width {
+    width: 400px;
+    margin: 0 auto;
+     float:left;
+}
+
+/***** ABOUT *****/
+
+#about .full-width {
+    padding: 80px 0;
+}
+
+#about h2 {
+    font-family: 'Lora', serif;
+    font-size: 36px;
+    padding-left: 50px;
+}
+
+#about p {
+    font-size: 21px;
+    color: #7F7F7F;
+    line-height: 40px;
+    padding-left:50px;
+    padding-right:50px;
+}
+
+/***** WORK *****/
+
+#work {
+  background-color: #F9CEB7;
+  text-align: center;
+
+}
+#work .full-width {
+    padding: 115px 0;
+}
+
+#work img {
+    padding-bottom: 30px;
+}
+#work h3 {
+    font-size: 24px;
+    line-height:32px;
+    width: 400px;
+    margin: 0 auto;
+}
+
+#work p {
+    font-family: 'Lora' serif;
+    font-size: 18px;
+    line-height: 30px;
+    padding: 0 50px;
+}
+
+/****CONTACT****/
+
+#contact {
+  background-color: #EBEBEB;
+}
+#contact .full-width {
+    padding: 110px 0;
+}
+#contact img#contact-img {
+    margin-left: 25px;
+    border: 12px solid #ffffff;
+}
+/**Double check how to add an ID Tag above**/
+
+#contact h2, #contact #email-header, #contact #socialmedia-header, #contact ul {
+    padding-left: 115px;
+    border-radius: 50%
+
+}
+img:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+<ul>
+    <li><a href="https://www.linkedin.com/in/stephaniedelong/"><img src="img/icon-linkedin.png" alt="LinkedIn"/></a></li>
+    <li><a href="https://www.instagram.com/stephaniedelong/"><img src="img/icon-instagram.png" alt="Instagram"/></a></li>
+    <li><a href="https://twitter.com/stephdelong93"><img src="img/icon-twitter.png" alt="Twitter"/></a></li>
+</ul>
+
+#contact #envelope {
+    padding: 0 10px 0 115px;
+}
+<a href="contact-image.png">
+<img src="img/contact-image.png" alt="Contact Image" />
